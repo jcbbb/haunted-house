@@ -12,7 +12,7 @@ app.use("/node_modules", express.static(path.join(process.cwd(), "node_modules")
 
 app.get("/", (req, res) => {
   res.render("home", {
-    title: "Hello world!",
+    title: "Haunted House",
   });
 });
 
